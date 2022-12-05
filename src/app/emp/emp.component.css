@@ -1,0 +1,15 @@
+h1{background-color: aquamarine;
+color:blue;}
+table{
+    background-color: lightblue;
+    width: 50%;
+    height: auto;
+}
+tr,td{
+    border: 2px solid red;
+    background-color: lightgray;
+    color: magenta;
+}
+th{background-color:aliceblue;
+color:darkblue;}
+

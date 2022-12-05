@@ -1,0 +1,50 @@
+<h1>Employee</h1>
+<table>
+    <thead><tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Salary</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>101</td>
+        <td>Sam</td>
+        <td>98000.90</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>Ravi</td>
+        <td>83000.90</td>
+    </tr>
+    <tr>
+        <td>103</td>
+        <td>Hema</td>
+        <td>76000.90</td>
+    </tr>
+</tbody>
+</table> -->
+<!-- <h1>DataBindings in Angular</h1>
+<h2>Interpolation</h2>
+<h2>Employee Name : {{ename}}</h2>
+<img src="{{epic}}">
+{{12+45}}
+
+<h2>Property Binding</h2>
+
+<img [src]="epic">
+<h2>Event Binding Example</h2>
+<button (click)="welcome">Swagat!!!</button>
+<h2>Two Way Data Binding</h2>
+<input type="text" [(ngModel)]='ename'/>
+Welcome : {{ename}} -->
+<h2>Property Binding VS Interpolation</h2>
+
+<button [disabled]="isdisabled">Property Binding Button</button>
+
+<hr>
+<button disabled="{{isdisabled}}">Interpolation Button</button>
+
+<hr>
+
+<button (click)="isdisabled = ! isdisabled">Enabled or Disabled</button>
